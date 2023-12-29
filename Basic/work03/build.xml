@@ -1,0 +1,24 @@
+<project default="run">
+	<target name="compile">
+		<javac srcdir="./src" destdir="./bin"></javac>
+	</target>
+	
+	<target name="run" depends="compile">
+		<java classname="ConsTest1">
+			<classpath>
+				<pathelement path="./bin"/>
+			</classpath>
+		</java>
+	</target>
+</project>
+
+
+<!--
+	javac -d ./bin ./src/파일명.java
+		실행시키는 위치가 바깥
+	*모든* 파일 컴파일해버려서 지정할 필요가 없음. 위치만 지정해주면됨
+	java -cp ./bin 파일명
+	얘는 파일명 *지정*해줘야함
+	문법은 외우지 말기
+	depends 먼저 처리해야될일 적어주고 default에는 마지막으로 될 작업 이름
+-->
