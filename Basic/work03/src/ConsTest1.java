@@ -2,9 +2,9 @@ class ConsDemo1 {
 	int iVal;
 	double dVal;
 	
-	//»ı¼ºÀÚ
+	// ìƒì„±ì
 	ConsDemo1(int i){
-		System.out.println("»ı¼ºÀÚ È£ÃâµÊ");
+		System.out.println("ìƒì„±ì í˜¸ì¶œë¨");
 	}
 	
 	ConsDemo1(){};
