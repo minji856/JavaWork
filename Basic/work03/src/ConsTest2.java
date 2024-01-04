@@ -1,19 +1,19 @@
 class ConsDemo2 {
 	int iVal;
 	double dVal;
-	
+	 
 	ConsDemo2(int i, double d){
 		iVal = i;
 		dVal = d;
 	} 
 	
-	//±âº» »ý¼ºÀÚ ¾È ±×·¯¸é ¿À·ù°¡ ³². ³»¿ëÀÌ ¾ø´õ¶óµµ Àû¾îÁÖ±â
+	//ê¸°ë³¸ ìƒì„±ìž ì•ˆ ê·¸ëŸ¬ë©´ ì˜¤ë¥˜ê°€ ë‚¨. ë‚´ìš©ì´ ì—†ë”ë¼ë„ ì ì–´ì£¼ê¸°
 	ConsDemo2(){} 
 	
-	// ¸Å¼­µå »ý¼º
+	// ë§¤ì„œë“œ ìƒì„±
 	void setVal(int i, double d){
 		/*
-		°ËÁõ ÄÚµå
+		ê²€ì¦ ì½”ë“œ
 		*/
 		iVal = i;
 		dVal = d;
@@ -28,18 +28,18 @@ public class ConsTest2 {
 		//int i;
 		//System.out.println(i);
 		
-		//°ËÁõ ÄÚµå
+		//ê²€ì¦ ì½”ë“œ
 		/*
-			100ÀÌ ¹®Á¦°¡ ÀÖ´ÂÁö ¾ø´ÂÁö °ËÁõ
+			100ì´ ë¬¸ì œê°€ ìžˆëŠ”ì§€ ì—†ëŠ”ì§€ ê²€ì¦
 		*/
 		//ob.iVal = 100;
 		//ob.dVal = 10.0;
 		
-		//º¯¼öÀÌ¸§ ¸ô¶óµµµÈ´Ù
+		//ë³€ìˆ˜ì´ë¦„ ëª°ë¼ë„ëœë‹¤
 		ob.setVal(100, 10.0); 
 		
 		ConsDemo2 ob2 = new ConsDemo2(100, 10.0);
-				//ÁÖ¼Ò¸¦ ÀúÀåÇÏ´Â ÂüÁ¶º¯¼ö
+				//ì£¼ì†Œë¥¼ ì €ìž¥í•˜ëŠ” ì°¸ì¡°ë³€ìˆ˜
 	}
 }
 
