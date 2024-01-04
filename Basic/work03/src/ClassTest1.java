@@ -2,16 +2,16 @@ class ClassDemo {
 	int m_no;
 	double m_point;
 }
-
+ 
 public class ClassTest1 {
 	int m_ival;
 	double m_dval;
-	//Å¬·¡½º ¾È¿¡¼­ ¼±¾ğµÇ¼­ m_ival´Â Àü¿ªº¯¼ö ¾îµğ¼­³ª ¾µ ¼ö ÀÖÀ½
-	//m_ival = 10; ±â´ÉÀÌ³ª µ¿ÀÛ X ¼±¾ğ¸¸ ÇØÁÖ´Â °÷ °èÈ¹¸¸ ¼¼¿öµĞ °Í
-	//class ¸â¹ö´Â À§ µÎ°³¹Û¿¡ ¾øÀ½
+	//í´ë˜ìŠ¤ ì•ˆì—ì„œ ì„ ì–¸ë˜ì„œ m_ivalëŠ” ì „ì—­ë³€ìˆ˜ ì–´ë””ì„œë‚˜ ì“¸ ìˆ˜ ìˆìŒ
+	//m_ival = 10; ê¸°ëŠ¥ì´ë‚˜ ë™ì‘ X ì„ ì–¸ë§Œ í•´ì£¼ëŠ” ê³³ ê³„íšë§Œ ì„¸ì›Œë‘” ê²ƒ
+	//class ë©¤ë²„ëŠ” ìœ„ ë‘ê°œë°–ì— ì—†ìŒ
 	
 	public static void main(String[] args){
-		// Áö¿ªº¯¼ö int m_ival; 
+		// ì§€ì—­ë³€ìˆ˜ int m_ival; 
 		//m_ival = 10;
 		//new ClassTest1().m_ival = 10;
 		//System.out.println(new ClassTest1().m_ival);
@@ -22,7 +22,7 @@ public class ClassTest1 {
 		
 		//i=100;
 		/*int ival;
-		ival = 10; Å¬·¡½º ¾È¿¡ ÀÖ´Â°Ô ¾Æ´Ï¹Ç·Î °¡´É*/
+		ival = 10; í´ë˜ìŠ¤ ì•ˆì— ìˆëŠ”ê²Œ ì•„ë‹ˆë¯€ë¡œ ê°€ëŠ¥*/
 		System.out.println("--------------------------------");
 		
 		
