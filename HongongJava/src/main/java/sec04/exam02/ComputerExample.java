@@ -16,6 +16,7 @@ public class ComputerExample {
 
 		// sum2는 배열 선언 없이 자유롭게 가능
 		int result3 = myCom.sum2(1, 2, 3);
+		// int result3 = myCom.sum2(new int[] {1, 2, 3}); 배열 선언도 가능
 		System.out.println("result3: " + result3);
 		
 		int result4 = myCom.sum2(1, 2, 3, 4, 5);
